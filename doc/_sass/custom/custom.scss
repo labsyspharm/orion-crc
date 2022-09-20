@@ -1,0 +1,23 @@
+figure.figure-story {
+  position: relative;
+  display: inline-block;
+  margin: 0 25px 25px 0;
+}
+
+figure.figure-story:hover {
+  filter: opacity(0.5);
+}
+
+figure.figure-story.figure-story-grid {
+  width: 205px;
+}
+
+figure.figure-story figcaption {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: white;
+  background: rgb(0, 0, 0);
+  padding: 5px;
+  line-height: 1em;
+}
