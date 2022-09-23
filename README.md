@@ -16,4 +16,9 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 <br>
 <br>
 ## Software requirements 
-For imaging processing, please visit 
+For imaging processing, please visit mcmicro.org for details
+
+
+
+## Funding
+This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
