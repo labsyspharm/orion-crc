@@ -16,7 +16,8 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 <br>
 <br>
 ## Software requirements 
-For imaging processing, please visit mcmicro.org for details
+**For imaging processing, please visit [mcmicro.org](https//mcmicro.org/) for details**
+
 
 
 
