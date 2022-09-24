@@ -1,5 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Build Status]
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Codes and sample data for "Multi-modal digital pathology for colorectal cancer diagnosis by high-plex immunofluorescence imaging and traditional histology of the same tissue section" could be found here: https://github.com/labsyspharm/orion-crc/
 <br>
 Jia-Ren Lin1,2,*, Yu-An Chen1,2,*, Daniel Campton3,*, Jeremy Cooper3, Shannon Coy1,4, Clarence Yapp1,2, Juliann B. Tefft1,2, Erin McCarty3, Keith L. Ligon4, Scott J. Rodig, Steven Reese3, Tad George3, Sandro Santagata1,2,4,±, Peter K. Sorger1,2,± 
