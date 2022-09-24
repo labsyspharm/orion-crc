@@ -24,15 +24,33 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 **MATLAB 2019b or above [mathworks.com/products/matlab](https://www.mathworks.com/products/matlab.html)**
 <br>
 ## Installation guide
-**1** Loading provided demo data 
-**2** Run MATLAB scripts to generate each plots
+**1** Loading provided demo data <br>
+**2** Run MATLAB scripts to generate each plots <br>
 **Typical install time on a typical desktop isn't determined**
 <br>
 ## Demo
 ```
-% If you have conda installed
-conda create --name scimap python=3.8
-conda activate scimap
+%% Optimize ImmuneScore
+
+markers = {'CD3','CD8','CD45','CD45RO','CD68','CD163','CD4','CD20','SMA'};
+regions = {'R1','R2'};
+figure;
+
+for i = 1:length(markers)
+    for j = 1:length(regions)
+        subplot(3,6,(i-1)*length(regions)+j);
+        marker1 = strcat('norm_',markers{i},regions{j});
+        list1 = sumAllsample{:,marker1};
+        list2 = sumAllsample.PFSDays;
+        scatter(list1,list2,30,'b','fill');
+        lsline;
+        title(num2str(corr(list1,list2),'%0.2f'),'FontSize',16);
+        set(gca,'xtick',[]);
+        xlabel(marker1,'Interpreter','none');
+        set(gca,'ytick',[]);
+        ylabel('PFS Days');
+    end
+end
 ```
 <br>
 ## Instructions for use
