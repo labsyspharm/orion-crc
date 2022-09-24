@@ -54,7 +54,7 @@ end
 ```
 <br>
 ## Instructions for use
-To learn more about how to run the provided scripts on your data, please contact authors for details
+**To learn more about how to run the provided scripts on your data, please contact authors for details**
 <br>
 <br>
 ## Funding
