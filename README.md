@@ -7,11 +7,10 @@ Jia-Ren Lin1,2,*, Yu-An Chen1,2,*, Daniel Campton3,*, Jeremy Cooper3, Shannon Co
 ± These authors contributed equally
 
 **Human Tissue Atlas Center** <br>
-**1** Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, 02115, USA. 
-**2** Ludwig Center at Harvard, Harvard Medical School, Boston, MA 02115, USA.
-**3** RareCyte, Inc., 2601 Fourth Ave., Seattle, WA, 98121, USA.
-**4** Department of Pathology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA 02115, USA.
-<br>
+**1** Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.<br>
+**2** Ludwig Center at Harvard, Harvard Medical School, Boston, MA 02115, USA.<br>
+**3** RareCyte, Inc., 2601 Fourth Ave., Seattle, WA, 98121, USA.<br>
+**4** Department of Pathology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA 02115, USA.<br>
 <br>
 <img src="./docs/Orion_fig1a.png" style="max-width:700px;width:100%" >
 <br>
