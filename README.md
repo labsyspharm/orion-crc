@@ -3,7 +3,7 @@
 <br>
 Jia-Ren Lin1,2,*, Yu-An Chen1,2,*, Daniel Campton3,*, Jeremy Cooper3, Shannon Coy1,4, Clarence Yapp1,2, Juliann B. Tefft1,2, Erin McCarty3, Keith L. Ligon4, Scott J. Rodig, Steven Reese3, Tad George3, Sandro Santagata1,2,4,±, Peter K. Sorger1,2,± 
 <br>
-* These authors contributed equally
+* These authors contributed equally<br>
 ± These authors contributed equally
 
 **Human Tissue Atlas Center** <br>
