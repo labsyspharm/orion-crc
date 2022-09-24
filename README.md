@@ -22,22 +22,22 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 ## System requirements 
 **For imaging processing, please visit [mcmicro.org](https//mcmicro.org/) for details**
 **MATLAB 2019b or above [mathworks.com/products/matlab](https://www.mathworks.com/products/matlab.html)**
-[br]
+<br>
 ## Installation guide
 **1** Loading provided demo data 
 **2** Run MATLAB scripts to generate each plots
 **Typical install time on a typical desktop isn't determined**
-[br]
+<br>
 ## Demo
 ```
 % If you have conda installed
 conda create --name scimap python=3.8
 conda activate scimap
 ```
-[br]
+<br>
 ## Instructions for use
 To learn more about how to run the provided scripts on your data, please contact authors for details
-[br]
-[br]
+<br>
+<br>
 ## Funding
 This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
