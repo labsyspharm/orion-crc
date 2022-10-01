@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Codes and sample data for "Multi-modal digital pathology for colorectal cancer diagnosis by high-plex immunofluorescence imaging and traditional histology of the same tissue section" could be found here: https://github.com/labsyspharm/orion-crc/
+
+# Multi-modal digital pathology for colorectal cancer diagnosis by high-plex immunofluorescence imaging and traditional histology of the same tissue section
 
 Jia-Ren Lin<sup>1,2,</sup>\*,
 Yu-An Chen<sup>1,2,</sup>\*,
@@ -35,33 +36,51 @@ Peter K. Sorger<sup>1,2,±</sup>
 Precision medicine is critically dependent on better methods for diagnosing and staging disease and predicting drug response. Histopathology using Hematoxylin and Eosin (H&E) stained tissue - not genomics – remains the primary diagnostic modality in cancer. Moreover, recently developed, highly multiplexed tissue imaging represents a means of enhancing histology workflows with single cell mechanisms. Here we describe an approach for collecting and analyzing H&E and high-plex immunofluorescence (IF) images from the same cells in a whole-slide format suitable for translational and clinical research and eventual deployment in diagnosis. Using data from 40 human colorectal cancer resections (60 million cells) we show that IF and H&E images provide human experts and machine learning algorithms with complementary information. We demonstrate the automated generation and ranking of computational models, based either on immune infiltration or tumor-intrinsic features, that are highly predictive of progression-free survival. When these models are combined, a hazard ratio of ~0.045 is achieved, demonstrating the ability of multi-modal digital pathology to generate high-performance and interpretable biomarkers.
 
 
-## Image data 
+## Data availability
 
-All Orion images in this study are available at: https://labsyspharm.github.io/orion-crc/
-
-
-## System requirements
-
-- For imaging processing, please visit [mcmicro.org](https//mcmicro.org/) for details
-- MATLAB 2019b or above [mathworks.com/products/matlab](https://www.mathworks.com/products/matlab.html)
+Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided exemplar data via [Synapse]() for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using Minerva.
 
 
-## Installation guide
+### Download exemplar data
 
-1. Load provided demo data
-1. Run MATLAB scripts to generate each plots
-
-**Typical install time on a typical desktop isn't determined**
+Please follow the instructions provided by Synapse
 
 
-## Instructions for use
+### Image viewing using web browsers
 
-To learn more about how to run the provided scripts on your data, please contact authors for details
+Light-weight image viewing for all the bio-specimens used in this study is made available using Minerva. Visit https://labsyspharm.github.io/orion-crc to access the images.
+
+---
+
+
+## Codes for imaging data processing
+
+Highplex Orion whole-slide images were processed using [MCMICRO](https://mcmicro.org/) modules with customizations to cope with the large X-Y dimension in the dataset. Registration of Orion immunofluorescence images and post-Orion H&E images was done with [PALOM](https://github.com/yu-anchen/palom).
+
+
+### Scripts in the `scripts-processing/` folder
+
+- asfsdf
+
+---
+
+
+## Codes for analyzing single-cell spatial analysis
+
+Single-cell spatial analysis was performed using [MATLAB 2019b]((https://www.mathworks.com/products/matlab.html)). To run the provided scripts on your data, please contact authors for more details.
+
+### Running the analysis and plotting scripts
+
+asdfasdf
+
+---
 
 
 ## Funding
 
 This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
+
+---
 
 
 ## Demo
