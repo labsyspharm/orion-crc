@@ -43,7 +43,7 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided [exemplar data](https://www.synapse.org/#!Synapse:syn38990468) via [Synapse](https://www.synapse.org/#) for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen).
 
 
-### Exemplar data (`syn38990468`)
+### Exemplar data ([`syn38990468`](https://www.synapse.org/#!Synapse:syn38990468))
 
 To download, please refer to the [Synapse documentation](https://help.synapse.org/docs/Finding-and-Downloading-Data.2003796231.html)
 
