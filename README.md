@@ -40,12 +40,28 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 
 ## Data availability
 
-Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided exemplar data via [Synapse]() for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using Minerva.
+Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided [exemplar data](https://www.synapse.org/#!Synapse:syn38990468) via [Synapse]() for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using Minerva.
 
 
-### Download exemplar data
+### Exemplar data (`syn38990468`)
 
-Please follow the instructions provided by Synapse
+To download, please refer to the [Synapse documentation](https://help.synapse.org/docs/Finding-and-Downloading-Data.2003796231.html)
+
+- Files in the [exemplar data](https://www.synapse.org/#!Synapse:syn38990468)
+    ```bash
+    P37_S29-CRC01/
+    ├── quantification
+    │   └── p37_s29_a24_c59kx_e15__at__20220106_014304_946511_cellringmask.csv
+    │       # single-cell feature table
+    ├── segmentation
+    │   └── cellRingMask.tif
+    │       # labeled mask used to quantify single-cell features
+    └── registration
+        ├── p37_s29_a24_c59kx_e15__at__20220106_014304_946511.ome.tiff
+        │   # orion IF image (19-channel, 16-bit)
+        └── 18459-lsp10353-us-scan-or-001 _093059-registered.ome.tif
+            # post-orion H&E image registered to orion image (3-channel, 8-bit)
+    ```
 
 
 ### Image viewing using web browsers
@@ -67,7 +83,7 @@ Highplex Orion whole-slide images were processed using [MCMICRO](https://mcmicro
 ---
 
 
-## Codes for analyzing single-cell spatial analysis
+## Codes for single-cell spatial analysis
 
 Single-cell spatial analysis was performed using [MATLAB 2019b]((https://www.mathworks.com/products/matlab.html)). To run the provided scripts on your data, please contact authors for more details.
 
