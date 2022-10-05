@@ -76,9 +76,15 @@ Light-weight image viewing for all the bio-specimens used in this study is made 
 Highplex Orion whole-slide images were processed using [MCMICRO](https://mcmicro.org/) modules with customizations to cope with the large X-Y dimension in the dataset. Registration of Orion immunofluorescence images and post-Orion H&E images was done with [PALOM](https://github.com/yu-anchen/palom).
 
 
-### Scripts in the `scripts-processing/` folder
+### Files in the `scripts-processing/` folder
 
-- asfsdf
+To process Orion images into single tables, we ran `unmicst` and `S3segmenter` to generated labeled mask and run `quantification` using the segmentation mask and the 19-channel Orion image. Version and repositories of the processing modules is listed in the `github_repo.md` file.
+
+- conda-env yaml files: environment specs for creating conda envs to run customized mcmicro modules
+- `github_repo.md` file: version and repositories of the processing modules
+- `.py` files: scripts for batch processing multiple input images
+- `file_list.csv` file: file index for batch processing
+- `markers.csv` file: antibody target names of channels in the Orion images
 
 ---
 
@@ -87,21 +93,10 @@ Highplex Orion whole-slide images were processed using [MCMICRO](https://mcmicro
 
 Single-cell spatial analysis was performed using [MATLAB 2019b]((https://www.mathworks.com/products/matlab.html)). To run the provided scripts on your data, please contact authors for more details.
 
-### Running the analysis and plotting scripts
 
-asdfasdf
+### Demo for running the analysis and plotting scripts
 
----
-
-
-## Funding
-
-This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
-
----
-
-
-## Demo
+Please contact the authors for detailed information.
 
 ```matlab
 %% Optimize ImmuneScore
@@ -126,3 +121,12 @@ for i = 1:length(markers)
     end
 end
 ```
+
+
+---
+
+
+## Funding
+
+This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
+
