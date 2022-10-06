@@ -1,0 +1,19 @@
+name: quantification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask=2021.7.2
+  - h5py=3.3.0
+  - joblib=1.0.1
+  - numpy=1.21.1
+  - openjdk=11.0.9.1
+  - pandas=1.3.1
+  - pyimagej=1.0.0
+  - python=3.8.0
+  # https://stackoverflow.com/questions/65687480/importerror-dll-load-failed-while-importing-rolling-ball-cy
+  - scikit-image=0.19.2
+  - scipy=1.7.0
+  - tifffile=2021.7.30
+  - ipython
+  - tqdm
