@@ -66,7 +66,7 @@ To download, please refer to the [Synapse documentation](https://help.synapse.or
 
 ### Image viewing using web browsers
 
-Light-weight image viewing for all the bio-specimens used in this study is made available using Minerva. Visit https://labsyspharm.github.io/orion-crc to access the images.
+Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen). Visit https://labsyspharm.github.io/orion-crc to access the images.
 
 ---
 
