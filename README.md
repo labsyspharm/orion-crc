@@ -40,7 +40,7 @@ Precision medicine is critically dependent on better methods for diagnosing and 
 
 ## Data availability
 
-Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided [exemplar data](https://www.synapse.org/#!Synapse:syn38990468) via [Synapse](https://www.synapse.org/#) for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen).
+Full-resolution images, derived imaging data, and single-cell spatial feature tables will be released by the National Cancer Institute sponsored [repository for Human Tumor Atlas Network](https://htan-portal-nextjs.vercel.app/). While the public resource is still undergoing extensive development, we provided [exemplar data](https://www.synapse.org/#!Synapse:syn38990468) via [Synapse](https://www.synapse.org/#) for demonstration purposes. Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen) [[1]](#1).
 
 
 ### Exemplar data ([`syn38990468`](https://www.synapse.org/#!Synapse:syn38990468))
@@ -66,7 +66,7 @@ To download, please refer to the [Synapse documentation](https://help.synapse.or
 
 ### Image viewing using web browsers
 
-Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen). Visit https://labsyspharm.github.io/orion-crc to access the images.
+Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen) [[1]](#1). Visit https://labsyspharm.github.io/orion-crc to access the images.
 
 ---
 
@@ -129,4 +129,11 @@ end
 ## Funding
 
 This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
+
+---
+
+## References
+
+<a id="1">[1]</a>
+J. Jessup and R. Krueger et al., "Scope2Screen: Focus+Context Techniques for Pathology Tumor Assessment in Multivariate Image Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 28, no. 1, pp. 259-269, Jan. 2022, doi: 10.1109/TVCG.2021.3114786.
 
