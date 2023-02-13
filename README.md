@@ -1,4 +1,7 @@
+[![DOI](https://zenodo.org/badge/522617119.svg)](https://zenodo.org/badge/latestdoi/522617119)
+![Latest release](https://img.shields.io/github/v/release/labsyspharm/orion-crc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 # Multi-modal digital pathology for colorectal cancer diagnosis by high-plex immunofluorescence imaging and traditional histology of the same tissue section
 
