@@ -1,0 +1,1024 @@
+{
+    "Images": [
+        {
+            "Name": "i0",
+            "Description": "Multimodal spatial profiling of colorectal cancer using Orion",
+            "Path": "https://s3.amazonaws.com/www.cycif.org/lin-chen-campton-2022/story-json/P37_S32-CRC04/images/P37_S32-CRC04",
+            "Width": 87043,
+            "Height": 42367,
+            "MaxLevel": 7
+        }
+    ],
+    "Header": "Orion is an innovative multimodal imaging method that allows the rapid acquisition of 18-plex immunofluorescence and H&E images from the same sample. \n\nIt combines clinical-standard H&E images with multiplexed immunofluorescence, to leverage the advantages of both techniques. While H&E images provide robust morphological details, multiplexed immunofluorescence offers deep phenotyping capabilities. \n\nIn this Minerva story, we showcase how multimodal data obtained through Orion provides greater clarity than multiplexed immunofluorescence or H&E imaging data alone. \n\nWe used 40 samples, including the one presented here, to train machine learning models to identify potential biomarkers that can predict progression-free survival outcomes. _To delve deeper into the details of this particular specimen, you can refer to the **\u201cMetadata about this sample\u201d (page 15)**._\n\n### Attribution:\n**Please cite the publication and underlying data as:**  \nLin, J.R., Chen, Y.A., Campton, D., et al., *Nature Cancer*, 2023, [DOI: 10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1).\n\n**Please cite this Minerva Story as:**  \nJuliann Tefft, Yu-An Chen, Shannon Coy, Jia-Ren Lin, and Sarah Arena. Multimodal spatial profiling of colorectal cancer using Orion. Zenodo, 2023, [DOI: ](https://doi.org/). \n\n### How to use Minerva\nTo navigate through Minerva, simply click the right arrow at the top of this panel to progress through the narration. You can pan and zoom within the image at any time and return to the narration by toggling the arrows. Additionally, you can adjust the visible channels and access plain language descriptions of each channel by clicking the gear icon near the legend. Some channels include a lens that allows you to see the overlap between channels. On these pages, you can pick up and put down the lens, make it larger or smaller by dragging the lower right arrow, and fade the lens by pulling the semi-circle dial to the left. In the right column, we have pre-selected several channel groups for your convenience. Feel free to click on a different channel group at any time to explore a new set of markers.",
+    "Rotation": 0,
+    "Layout": {
+        "Grid": [
+            [
+                "i0"
+            ]
+        ]
+    },
+    "FirstViewport": {
+        "Zoom": 0.9,
+        "Pan": [
+            0.7826,
+            0.4502
+        ]
+    },
+    "Stories": [
+        {
+            "Name": "",
+            "Description": "",
+            "Waypoints": [
+                {
+                    "Name": "Overview of this tissue sample",
+                    "Description": "This section of tissue is derived from a patient with colorectal cancer. \n\nOn the left side, we have normal colorectal tissue. Several anatomical layers are identified and labeled. Starting from the top of the image, we have the mucosa, which borders the lumen. Moving toward the bottom of the image, we encounter the subserosa, which comprises a layer of fat and connective tissue. \n\nOn the right, we can observe a PanCK-positive tumor, specifically an invasive adenocarcinoma. This tumor is classified as pathological stage pT3, as it is located in the submucosa of the colorectum and has infiltrated the muscularis propria and subserosa (bottom right).\n\nWithin the tumor region, we can observe four holes, which indicate the areas where circular tissue cores were removed and transferred to another slide to build a tissue microarray (TMA) along with cores removed from other specimens.\n\nThroughout the tissue, we can observe multiple distinct, bright areas that contain many immune cells (CD45+). These are Peyer\u2019s patches and tertiary lymphoid structures (TLS). We will discuss these structures in more detail later in the narration.",
+                    "Arrows": [
+                        {
+                            "Text": "TMA core (1 of 4)",
+                            "HideArrow": false,
+                            "Point": [
+                                1.0447532328648932,
+                                0.24922200427392255
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Peyer's patch",
+                            "HideArrow": false,
+                            "Point": [
+                                0.5420729703970466,
+                                0.3969021892054807
+                            ],
+                            "Angle": 89
+                        },
+                        {
+                            "Text": "Muscularis propria",
+                            "HideArrow": true,
+                            "Point": [
+                                0.25838001678376377,
+                                0.6132126479585408
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Submucosa",
+                            "HideArrow": true,
+                            "Point": [
+                                0.16013436889156835,
+                                0.42515117036777017
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Entrapped normal mucosa",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5008832475183738,
+                                0.1011028902649602
+                            ],
+                            "Angle": 265
+                        },
+                        {
+                            "Text": "Invasive adenocarcinoma (submucosal = pT1)",
+                            "HideArrow": false,
+                            "Point": [
+                                1.1858905462037752,
+                                0.22226348484685632
+                            ],
+                            "Angle": 263
+                        },
+                        {
+                            "Text": "Invasive adenocarcinoma (Invading muscularis, pT2)",
+                            "HideArrow": false,
+                            "Point": [
+                                1.4414083311586228,
+                                0.5655819663596758
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Invasive adenocarcinoma (subserosal, pT3)",
+                            "HideArrow": false,
+                            "Point": [
+                                1.8578066324232103,
+                                0.6687413926078998
+                            ],
+                            "Angle": 263
+                        },
+                        {
+                            "Text": "Colorectal lumen",
+                            "HideArrow": true,
+                            "Point": [
+                                0.5404202152092158,
+                                0.18685585119842418
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Normal mucosa",
+                            "HideArrow": false,
+                            "Point": [
+                                0.5930296667756694,
+                                0.3253443267027997
+                            ],
+                            "Angle": 290
+                        }
+                    ],
+                    "Overlays": [
+                        {
+                            "x": 1.46032818972233,
+                            "y": 0.07364063337401561,
+                            "width": 0.09813897234548419,
+                            "height": 0.07787750944079422
+                        }
+                    ],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 0.4380627965488322,
+                    "Pan": [
+                        0.7825795142219308,
+                        0.45018288706085147
+                    ]
+                },
+                {
+                    "Name": "Immune populations in normal colorectal tissue (1 of 4)",
+                    "Description": "In this image, we can observe the normal mucosa, which consists of many intestinal crypts. The crypts were sliced in different directions when preparing the slide \u2013 those sliced cross-sectionally appear circular, while those sliced lengthwise resemble elongated tubes. Each crypt is lined by epithelial cells, which stain positive for PanCK, and surrounded by stroma and immune cells.\n\nThe normal mucosa harbors a substantial number of immune cells. Since the mucosa is in direct contact with the intestinal microbiome, the mucosa possesses resident populations of diverse immune cells such as lymphocytes, macrophages, neutrophils, eosinophils, and mast cells that help protect the body against unwanted infections.\n\nHere, we can also observe a collection of immune cells known as a Peyer\u2019s patch or secondary lymphoid organs, which are intermittently found in normal intestines, typically positioned at the interface between the mucosa and submucosa. They serve as specialized areas involved in immune surveillance and response.",
+                    "Arrows": [
+                        {
+                            "Text": "Mucosal crypts (longitudinal)",
+                            "HideArrow": false,
+                            "Point": [
+                                0.6495622099904012,
+                                0.48206882020136
+                            ],
+                            "Angle": 241
+                        },
+                        {
+                            "Text": "Mucosal crypts (cross-section)",
+                            "HideArrow": false,
+                            "Point": [
+                                0.6932358916306087,
+                                0.4426790016872693
+                            ],
+                            "Angle": 211
+                        },
+                        {
+                            "Text": "Muscularis mucosa",
+                            "HideArrow": false,
+                            "Point": [
+                                0.6874352133834858,
+                                0.4755434278791319
+                            ],
+                            "Angle": 93
+                        },
+                        {
+                            "Text": "Submucosa",
+                            "HideArrow": true,
+                            "Point": [
+                                0.6945083312971293,
+                                0.4938733121192431
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Peyer's patch; Secondary lymphoid structure",
+                            "HideArrow": false,
+                            "Point": [
+                                0.7197878360350495,
+                                0.4840171082465103
+                            ],
+                            "Angle": 60
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 3.6083542316784167,
+                    "Pan": [
+                        0.6292142141275819,
+                        0.4600959775260021
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Immune populations in normal colon tissue (2 of 4)",
+                    "Description": "Upon close examination, pathologists can discern various anatomic structures and cell types in H&E samples such as this one. \n\nFor instance, immune cells, including lymphocytes and myeloid cells, are densely aggregated within this Peyer\u2019s patch. Within the patch, there is also a germinal center rich in B cells, which can be identified as a region of cells with a greater amount of light pink cytoplasm at the center of the patch.\n\nGerminal centers are sites where B cells mature via interactions with antigen-presenting immune cells such as macrophages and dendritic cells. While we expect these cell types to be present, we cannot ascertain the precise identities and functional states of individual cells solely from this H&E image. ",
+                    "Arrows": [
+                        {
+                            "Text": "Germinal center",
+                            "HideArrow": false,
+                            "Point": [
+                                0.7230939971934095,
+                                0.4775252970718927
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Peyer's patch",
+                            "HideArrow": false,
+                            "Point": [
+                                0.7159464493453163,
+                                0.4869859160573875
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Stroma with mixed immune cells",
+                            "HideArrow": false,
+                            "Point": [
+                                0.7457141832014055,
+                                0.46891632459166177
+                            ],
+                            "Angle": 60
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "H&E",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 13.405186992722644,
+                    "Pan": [
+                        0.7264518240911723,
+                        0.4796726257348596
+                    ]
+                },
+                {
+                    "Name": "Immune populations in normal colon tissue (3 of 4)",
+                    "Description": "Multiplexed immunofluorescence also makes it possible to identify specific cell types and their functional states. In this image, we can observe the presence of a CD20+ B-cell-rich germinal center, accompanied by numerous surrounding CD3+ T cells. Additionally, we can detect functional cell states, such as the abundant presence of PD-1-positive T cells.\n\nThe Orion method also makes it possible to directly compare IF-based molecular states and the corresponding morphologic features observed in H&E images. By examining identical cells on both IF and H&E, we can gain insights into whether different cell subtypes exhibit distinct morphologic appearances. For example, lymphocytes infiltrating the stroma may adopt an elongated morphology rather than the typical small round shape. These observations could potentially help uncover correlations between morphology and underlying molecular states.\n\n_To explore different immune channel groups, toggle the options listed in the right column. Additionally, you can turn off specific channels by clicking the gear icon in the upper right corner of the legend._",
+                    "Arrows": [
+                        {
+                            "Text": "Germinal center",
+                            "HideArrow": false,
+                            "Point": [
+                                0.723217340430198,
+                                0.4765651470630162
+                            ],
+                            "Angle": 60
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "Immune cells 1",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 13.405186992722644,
+                    "Pan": [
+                        0.7264518240911723,
+                        0.4796726257348596
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Immune populations in normal colon tissue (4 of 4)",
+                    "Description": "Beyond the Peyer's patch, we can observe a significant presence of immune and stromal cells within the normal mucosa. \n\nHowever, with H&E staining alone, it is challenging to identify precise cell types. Gaining insights into the populations of resident immune cells can greatly enhance our understanding of various pathologic conditions, including inflammatory diseases, cancer, and infectious diseases. \n\n_Toggle between the different channels and observe the distinct markers associated with these cells._\n",
+                    "Arrows": [],
+                    "Overlays": [],
+                    "Group": "T Cells 1",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 13.405186992722644,
+                    "Pan": [
+                        0.7654626868242993,
+                        0.470322877707363
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Immune interactions near the tumor edge",
+                    "Description": "Now that we know what normal tissue looks like, let\u2019s investigate the top edge of the tissue where the tumor surrounds some normal mucosa. \n\nThis region presents an opportunity to explore the interactions between the immune system and the tumor microenvironment.",
+                    "Arrows": [
+                        {
+                            "Text": "Entrapped normal mucosa",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5054328963182195,
+                                0.10049553345637592
+                            ],
+                            "Angle": 303
+                        },
+                        {
+                            "Text": "Invasive adenocarcinoma",
+                            "HideArrow": false,
+                            "Point": [
+                                1.451590177475316,
+                                0.16491597014769624
+                            ],
+                            "Angle": 29
+                        },
+                        {
+                            "Text": "",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5338156623266936,
+                                0.17333337284443695
+                            ],
+                            "Angle": 167
+                        },
+                        {
+                            "Text": "Budding region",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5068640907194497,
+                                0.16502358307613615
+                            ],
+                            "Angle": 322
+                        }
+                    ],
+                    "Overlays": [
+                        {
+                            "x": 1.4710807778674613,
+                            "y": 0.07677580252356273,
+                            "width": 0.07670672558004776,
+                            "height": 0.06508798212977107
+                        },
+                        {
+                            "x": 1.4951970077719061,
+                            "y": 0.16061778318236114,
+                            "width": 0.02557849969677517,
+                            "height": 0.010158775538768317
+                        }
+                    ],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 3.0069618597320136,
+                    "Pan": [
+                        1.4769399137435801,
+                        0.1249999904371925
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "A closer look at tumor budding",
+                    "Description": "Zooming into the interface between the mucosa and the tumor, we can observe the presence of small clusters of panCK+ tumor cells infiltrating the submucosal stroma. These structures, known as \u201cbudding cells,\u201d are commonly found at the edges of an invasive tumor.  \n\nWhile these \u2018buds\u2019 may appear as individual cells or small clusters of 2-4 cells when viewed in 2D sections of the tissue, our recently published research (referenced below) has unveiled that they are actually cross-sections of larger, fibril-like structures that extend from the primary tumor mass into the surrounding normal tissues. ([DOI: 10.1016/j.cell.2022.12.028](https://doi.org/10.1016/j.cell.2022.12.028))\n",
+                    "Arrows": [
+                        {
+                            "Text": "Tumor mass",
+                            "HideArrow": false,
+                            "Point": [
+                                1.480361125483479,
+                                0.17591789441303263
+                            ],
+                            "Angle": 333
+                        },
+                        {
+                            "Text": "Tumor mass",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5070028798400774,
+                                0.17665580240911852
+                            ],
+                            "Angle": 186
+                        },
+                        {
+                            "Text": "Budding cell",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5063081901879896,
+                                0.16658229897473814
+                            ],
+                            "Angle": 327
+                        }
+                    ],
+                    "Overlays": [
+                        {
+                            "x": 1.4992682946165226,
+                            "y": 0.1593634011598284,
+                            "width": 0.010362759128319077,
+                            "height": 0.010886004265633353
+                        }
+                    ],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 18.61831526767034,
+                    "Pan": [
+                        1.502605424197575,
+                        0.1617829833009887
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "A closer look at tumor budding",
+                    "Description": "Consistent with our previous research, the budding cells within this region exhibit lower levels of E-Cadherin than the surrounding tumor mass. In fact, the budding cells indicated by the arrow express almost no E-Cadherin.\n\nWhile it can be challenging to discern the distinct features of budding cells solely through H&E staining, using multiplexed immunofluorescence imaging allows us to visualize the specific expression patterns of these cells.\n",
+                    "Arrows": [
+                        {
+                            "Text": "Budding cell",
+                            "HideArrow": false,
+                            "Point": [
+                                1.506555263395431,
+                                0.16627923180319434
+                            ],
+                            "Angle": 343
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "Tumor",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 16.086224391267173,
+                    "Pan": [
+                        1.5021384339194515,
+                        0.16227449427184737
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Tumor-immune interactions with budding cells",
+                    "Description": "While it is well-known that invasive tumors are surrounded by a complex immune microenvironment, the precise interactions between tumor and immune cells are not readily discernable through H&E staining alone.\n\nIn this image, we observe a group of budding cells surrounded by immune cells. While their relationship may not be evident on H&E-stained sections, using multiplexed immunofluorescence (IF) imaging provides further insights. Through IF, we can see that the lymphocytes interact with the tumor via cytoplasmic processes which are not visible on H&E. Notably, we can see direct interactions between the PD-L1+ tumor cells and CD8+ T cells. \n\n*(You may need to turn off all channels except PD-1 and PD-L1 to observe the PD1/PDL1 handshake in detail!)*\n\nBy leveraging multimodal imaging, we can also correlate these functional states and spatial interactions between tumor and immune cells to the underlying tissue morphology. This integrated approach has the potential to unveil previously concealed associations and provide a deeper understanding of the intricate interplay and tumultuous competition between the tumor and immune components in cancer tissues. \n",
+                    "Arrows": [],
+                    "Overlays": [
+                        {
+                            "x": 1.5033627480504543,
+                            "y": 0.15985382988070948,
+                            "width": 0.005113881991314795,
+                            "height": 0.004505656336994762
+                        }
+                    ],
+                    "Group": "Checkpoint",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 33.356394897731604,
+                    "Pan": [
+                        1.5046614527202162,
+                        0.1620907030657878
+                    ]
+                },
+                {
+                    "Name": "Multimodal identification of immune cells",
+                    "Description": "As we zoom back out, we come across a nearby cluster of CD45+ immune cells that do not exhibit staining for other immune markers. \n\nThis observation highlights an important aspect of antibody panels used for immune profiling \u2013 they often focus on the functional subtypes of lymphocytes and/or macrophages and exclude other cell types such as neutrophils, eosinophils, mast cells, etc. \n\nBy enabling direct comparison of immunofluorescence and H&E imaging, the Orion method allows us to identify unstained cells or architectural features with prominent morphologic characteristics. \n\nIn this case, inspecting the H&E channel reveals that the unstained cells within this cluster are neutrophils, identifiable by their distinctive, multi-lobed nuclei. \n",
+                    "Arrows": [
+                        {
+                            "Text": "CD45+ neutrophils",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5144800825965445,
+                                0.15341619154686695
+                            ],
+                            "Angle": 60
+                        }
+                    ],
+                    "Overlays": [
+                        {
+                            "x": 1.5104562042197198,
+                            "y": 0.14520063474529893,
+                            "width": 0.012416280553426917,
+                            "height": 0.011941677777630277
+                        }
+                    ],
+                    "Group": "Immune cells 1",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 13.995230196571418,
+                    "Pan": [
+                        1.501218710052609,
+                        0.16047800764492298
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Another budding region - near the deep invasive edge",
+                    "Description": "In this image, we see another budding region situated at the deep invasive edge of the tumor, where it infiltrates the muscularis propria layer.\n\nThis region recapitulates many characteristics we previously described. _Try toggling between channel groups to explore the specific markers and features of this area!_\n",
+                    "Arrows": [
+                        {
+                            "Text": "Tumor mass",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5033154764300927,
+                                0.5250185096685908
+                            ],
+                            "Angle": 320
+                        },
+                        {
+                            "Text": "Budding cells",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5109361723949108,
+                                0.5799228025358784
+                            ],
+                            "Angle": 116
+                        },
+                        {
+                            "Text": "Muscularis",
+                            "HideArrow": false,
+                            "Point": [
+                                1.5806132109708526,
+                                0.5910153825969472
+                            ],
+                            "Angle": 308
+                        }
+                    ],
+                    "Overlays": [
+                        {
+                            "x": 1.5052823636919217,
+                            "y": 0.5676587286526988,
+                            "width": 0.03812332331946888,
+                            "height": 0.03584449631030373
+                        }
+                    ],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 4.686974276007983,
+                    "Pan": [
+                        1.518919783841856,
+                        0.5587691514001222
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Tertiary lymphoid structure (TLS) at the invasive margin",
+                    "Description": "In invasive colorectal cancers, a significant local immune response often leads to the development of tertiary lymphoid structures (TLS) around the tumor. These structures resemble the Peyer\u2019s patches we examined earlier, featuring germinal centers where B cells mature and proliferate, a surrounding mantle of T cells, and interspersed myeloid cells. \n\nThe presence of numerous TLS may be associated with improved patient survival and favorable response to therapies that target the immune system. Our recently published research revealed that TLS exhibit complex functional interactions and form expansive 3D superstructures within the tissue. [DOI: 10.1016/j.cell.2022.12.028](https://doi.org/10.1016/j.cell.2022.12.028)\n\n_You may want to change channel groups to observe other immune populations or zoom out to explore smaller TLS-like structures in the vicinity._",
+                    "Arrows": [
+                        {
+                            "Text": "Germinal center",
+                            "HideArrow": false,
+                            "Point": [
+                                1.6538820185992447,
+                                0.6457190250413642
+                            ],
+                            "Angle": 60
+                        },
+                        {
+                            "Text": "Mantle",
+                            "HideArrow": false,
+                            "Point": [
+                                1.6309495524411841,
+                                0.6487767652832995
+                            ],
+                            "Angle": 92
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "Immune cells 2",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 9.04123124229935,
+                    "Pan": [
+                        1.6340628817478913,
+                        0.6470855210937678
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Autofluorescence illuminates tissue features ",
+                    "Description": "To enhance the signal-to-noise ratios of the antibody staining, we acquired the autofluorescence of each sample. Interestingly, we discovered that natural tissue autofluorescence can aid in identifying acellular features.\n\nIn this particular image, we have highlighted an artery, which is surrounded by thick layers of alpha-SMA+ vascular smooth muscle. The elastic lamina of the vessel wall becomes prominent due to a significant autofluorescence signal. \n\nWithin the lumen of the artery, we can also observe autofluorescent red blood cells. It is important to note that red blood cells and acellular structures like the elastic lamina are typically not characterized in immunofluorescence experiments. However, the Orion multimodal imaging approach enables the easy identification and analysis of these structures. ",
+                    "Arrows": [
+                        {
+                            "Text": "Elastic lamina",
+                            "HideArrow": false,
+                            "Point": [
+                                1.7114622516394502,
+                                0.7334301691418575
+                            ],
+                            "Angle": 159
+                        },
+                        {
+                            "Text": "Red blood cells",
+                            "HideArrow": false,
+                            "Point": [
+                                1.7199468101646156,
+                                0.7301764210505157
+                            ],
+                            "Angle": 328
+                        },
+                        {
+                            "Text": "Fat cell",
+                            "HideArrow": false,
+                            "Point": [
+                                1.6916713090664643,
+                                0.7610944485535839
+                            ],
+                            "Angle": 60
+                        }
+                    ],
+                    "Overlays": [],
+                    "Group": "Autofluorescence",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 6.278632807152327,
+                    "Pan": [
+                        1.692218570444264,
+                        0.742240265401583
+                    ],
+                    "Lensing": {
+                        "Group": "H&E",
+                        "Rad": 150
+                    }
+                },
+                {
+                    "Name": "Metadata about this sample",
+                    "Description": "### Diagnosis  \n**Age at Diagnosis**: 56 years  \n**Primary Diagnosis**: Adenocarcinoma NOS  \n**Site of Resection or Biopsy**: Rectosigmoid junction   \n**Tumor Grade**: High Grade  \n**Stage at Diagnosis**: IIIB  \n\n### Demographics\n**Species**: Human  \n**Vital Status**: Deceased   \n**Cause of death**: Cancer-related  \n**Sex**: Male  \n**Race**: White  \n**Ethnicity**: Not hispanic or latino  \n\n### Therapy  \n**Treatment Type**: Chemotherapy (FOLFOX) and radiation  \n**Initial Disease Status**: Initial Diagnosis  \n\n### Follow Up  \n**Progression**: Yes - Progression or Recurrence  \n**Last Known Disease Status**: Distant met recurrence/progression  \n**Age at Follow Up**: 58 years  \n**Days to Progression**: 459  \n\n### Biospecimen  \n**Acquisition Method Type**: Surgical Resection  \n\n### Molecular Test  \n**Molecular analysis method**: Targeted Sequencing  \n**Genotype Available**: Yes  \n**Genetic Features**:  p53, BRAF  \n\n## Imaging  \n**Imaging Assay Type**:  \n**Fixative Type**: Formalin  \n**Microscope**: RareCyte Orion  \n**Objective**: 20X0.75 NA  \n**Binned**:  \n\n## Publication and Data Availability  \n### Associated Data:  \n[DOI: 10.5281/zenodo.7637655](https://doi.org/10.5281/zenodo.7637655) \n\n\n### Attribution:\n**Please cite the publication and underlying data as:**  \nLin, J.R., Chen, Y.A., Campton, D., et al., *Nature Cancer*, 2023, [DOI: 10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1).\n\n**Please cite this Minerva Story as:**  \nJuliann Tefft, Yu-An Chen, Shannon Coy, Jia-Ren Lin, and Sarah Arena. Multimodal spatial profiling of colorectal cancer using Orion. Zenodo, 2023, [DOI: ](). \n\n### Associated Identifiers\n| ID Type                        | ID         |\n|--------------------------------|------------|\n| LSP Slide ID                   | LSP10388   |\n| Publication Participant No. | C04        |\n| HTAN Participant ID            | HTA7_934   |\n| HTAN Biospec. Block ID      | HTA7_934_1 |\n| HTAN Biospec. Section ID    | HTA7_934_9 |",
+                    "Arrows": [],
+                    "Overlays": [],
+                    "Group": "Tissue overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 0.40838515546639914,
+                    "Pan": [
+                        0.8603610204475294,
+                        0.4785126012935969
+                    ]
+                }
+            ]
+        }
+    ],
+    "Channels": [
+        {
+            "Rendered": false,
+            "Name": "DNA",
+            "Path": "Hoechst_0__Hoechst"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD31",
+            "Path": "CD31_2__CD31"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD45",
+            "Path": "CD45-0_3__CD45"
+        },
+        {
+            "Rendered": false,
+            "Name": "Pan-CK",
+            "Path": "Pan-CK_17__Pan-CK"
+        },
+        {
+            "Rendered": false,
+            "Name": "alpha-SMA",
+            "Path": "-SMA-0_18__-SMA"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD45RO",
+            "Path": "CD45RO_9__CD45RO"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD20",
+            "Path": "CD20_10__CD20"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD3e",
+            "Path": "CD3e_12__CD3e"
+        },
+        {
+            "Rendered": false,
+            "Name": "PD-1",
+            "Path": "PD-1_15__PD-1"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD68",
+            "Path": "CD68_4__CD68"
+        },
+        {
+            "Rendered": false,
+            "Name": "PD-L1",
+            "Path": "PD-L1_11__PD-L1"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD163",
+            "Path": "CD163_13__CD163"
+        },
+        {
+            "Rendered": false,
+            "Name": "Ki67",
+            "Path": "Ki67_16__Ki67"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD4",
+            "Path": "CD4_6__CD4"
+        },
+        {
+            "Rendered": false,
+            "Name": "FOXP3",
+            "Path": "FOXP3_7__FOXP3"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD8a",
+            "Path": "CD8a_8__CD8a"
+        },
+        {
+            "Rendered": false,
+            "Name": "E-cadherin",
+            "Path": "E-cadherin_14__E-cadherin"
+        },
+        {
+            "Rendered": false,
+            "Name": "Autofluorescence",
+            "Path": "Autofluorescence_1__Autofluorescence"
+        },
+        {
+            "Rendered": false,
+            "Name": "alpha-SMA",
+            "Path": "-SMA-0_18__-SMA"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD45",
+            "Path": "CD45-0_3__CD45"
+        },
+        {
+            "Rendered": false,
+            "Name": "HE-R",
+            "Path": "HE-R_0__HE-R"
+        },
+        {
+            "Rendered": false,
+            "Name": "HE-G",
+            "Path": "HE-G_1__HE-G"
+        },
+        {
+            "Rendered": false,
+            "Name": "HE-B",
+            "Path": "HE-B_2__HE-B"
+        }
+    ],
+    "Masks": [],
+    "Groups": [
+        {
+            "Name": "Tissue overview",
+            "Colors": [
+                "ffffff",
+                "ffff00",
+                "ff00ff",
+                "00fff2",
+                "ff0000"
+            ],
+            "Channels": [
+                "DNA",
+                "CD31",
+                "CD45",
+                "Pan-CK",
+                "alpha-SMA"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Blood vessels (endothelium)",
+                "All immune cells",
+                "Epithelial and tumor cells",
+                "Vascular smooth muscle cells and myofibroblasts"
+            ]
+        },
+        {
+            "Name": "H&E",
+            "Colors": [
+                "ff0000",
+                "00ff00",
+                "0000ff"
+            ],
+            "Channels": [
+                "H&E-R",
+                "H&E-G",
+                "H&E-B"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "Name": "Immune cells 1",
+            "Colors": [
+                "ff00ff",
+                "00ff00",
+                "ffffff",
+                "ff9300",
+                "fff500",
+                "007fff"
+            ],
+            "Channels": [
+                "CD20",
+                "CD3e",
+                "PD-1",
+                "CD45",
+                "CD68",
+                "E-cadherin"
+            ],
+            "Descriptions": [
+                "B cells",
+                "T cells",
+                "Immune checkpoint regulator",
+                "All immune cells",
+                "Macrophages",
+                "Epithelial and tumor cells"
+            ]
+        },
+        {
+            "Name": "Immune cells 2",
+            "Colors": [
+                "ff00ff",
+                "fff500",
+                "ffffff",
+                "00ffff"
+            ],
+            "Channels": [
+                "CD20",
+                "CD68",
+                "CD4",
+                "CD8a"
+            ],
+            "Descriptions": [
+                "B cells",
+                "Macrophages",
+                "T-helper cells",
+                "Cytotoxic T cells"
+            ]
+        },
+        {
+            "Name": "T Cells 1",
+            "Colors": [
+                "ffffff",
+                "ff4298",
+                "ffb500",
+                "00ff00",
+                "007fff"
+            ],
+            "Channels": [
+                "DNA",
+                "CD4",
+                "FOXP3",
+                "CD8a",
+                "E-cadherin"
+            ],
+            "Descriptions": [
+                "DNA",
+                "T-helper cells",
+                "Naturally occurring T-regulatory cells",
+                "Cytotoxic T cells",
+                "Epithelial and tumor cells"
+            ]
+        },
+        {
+            "Name": "T Cells 2",
+            "Colors": [
+                "ffffff",
+                "ff4298",
+                "00ffff",
+                "00ff00",
+                "0000ff",
+                "f79004"
+            ],
+            "Channels": [
+                "DNA",
+                "CD4",
+                "FOXP3",
+                "CD8a",
+                "CD3e",
+                "PD-1"
+            ],
+            "Descriptions": [
+                "DNA",
+                "T-helper cells",
+                "Naturally occurring T-regulatory cells",
+                "Cytotoxic T cells",
+                "T cells",
+                "Immune checkpoint regulator"
+            ]
+        },
+        {
+            "Name": "Tumor",
+            "Colors": [
+                "ffffff",
+                "00ffff",
+                "3232df",
+                "ff0000"
+            ],
+            "Channels": [
+                "DNA",
+                "Pan-CK",
+                "E-cadherin",
+                "alpha-SMA"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Epithelial and tumor cells",
+                "Epithelial and tumor cells",
+                "Vascular smooth muscle cells and myofibroblasts"
+            ]
+        },
+        {
+            "Name": "Tumor 2",
+            "Colors": [
+                "ffffff",
+                "3232df",
+                "ff0000"
+            ],
+            "Channels": [
+                "DNA",
+                "E-cadherin",
+                "alpha-SMA"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Epithelial and tumor cells",
+                "Vascular smooth muscle cells and myofibroblasts"
+            ]
+        },
+        {
+            "Name": "Checkpoint",
+            "Colors": [
+                "ffffff",
+                "ff00ff",
+                "00ff00",
+                "00ffff",
+                "ffff00"
+            ],
+            "Channels": [
+                "DNA",
+                "PD-L1",
+                "PD-1",
+                "Pan-CK",
+                "CD8a"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Immune checkpoint ligand",
+                "Immune checkpoint regulator",
+                "Epithelial and tumor cells",
+                "Cytotoxic T cells"
+            ]
+        },
+        {
+            "Name": "Autofluorescence",
+            "Colors": [
+                "ffffff",
+                "44e8ff",
+                "ffff00",
+                "ff0000"
+            ],
+            "Channels": [
+                "DNA",
+                "Autofluorescence",
+                "CD31",
+                "alpha-SMA"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Autofluorescence",
+                "Blood vessels (endothelium)",
+                "Vascular smooth muscle cells and myofibroblasts"
+            ]
+        },
+        {
+            "Name": "Macrophages",
+            "Colors": [
+                "ffffff",
+                "00ff00",
+                "ff00ff",
+                "ffff00",
+                "007fff"
+            ],
+            "Channels": [
+                "DNA",
+                "CD68",
+                "PD-L1",
+                "CD163",
+                "Ki67"
+            ],
+            "Descriptions": [
+                "DNA",
+                "Macrophages",
+                "Immune checkpoint ligand",
+                "Macrophages",
+                "Proliferating cells"
+            ]
+        }
+    ]
+}
