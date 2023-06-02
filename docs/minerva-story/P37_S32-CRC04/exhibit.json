@@ -755,17 +755,17 @@
         },
         {
             "Rendered": false,
-            "Name": "HE-R",
+            "Name": "H&E-R",
             "Path": "HE-R_0__HE-R"
         },
         {
             "Rendered": false,
-            "Name": "HE-G",
+            "Name": "H&E-G",
             "Path": "HE-G_1__HE-G"
         },
         {
             "Rendered": false,
-            "Name": "HE-B",
+            "Name": "H&E-B",
             "Path": "HE-B_2__HE-B"
         }
     ],
