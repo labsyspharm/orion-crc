@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# Multi-modal digital pathology for colorectal cancer diagnosis by high-plex immunofluorescence imaging and traditional histology of the same tissue section
+# High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers
 
 Jia-Ren Lin<sup>1,2,</sup>\*,
 Yu-An Chen<sup>1,2,</sup>\*,
@@ -20,6 +20,8 @@ Tad George<sup>3</sup>,
 Sandro Santagata<sup>1,2,4,±</sup>,
 Peter K. Sorger<sup>1,2,±</sup>
 
+*Nature Cancer (2023). DOI: [10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1)*
+
 \* These authors contributed equally<br>
 ± These authors contributed equally
 
@@ -29,6 +31,7 @@ Peter K. Sorger<sup>1,2,±</sup>
 <sup>3</sup> RareCyte, Inc., 2601 Fourth Ave., Seattle, WA, 98121, USA.<br>
 <sup>4</sup> Department of Pathology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA 02115, USA.<br>
 
+
 ---
 
 
@@ -36,7 +39,7 @@ Peter K. Sorger<sup>1,2,±</sup>
 
 ![Summary figure](./docs/Orion_fig1a.png)
 
-Precision medicine is critically dependent on better methods for diagnosing and staging disease and predicting drug response. Histopathology using Hematoxylin and Eosin (H&E) stained tissue - not genomics – remains the primary diagnostic modality in cancer. Moreover, recently developed, highly multiplexed tissue imaging represents a means of enhancing histology workflows with single cell mechanisms. Here we describe an approach for collecting and analyzing H&E and high-plex immunofluorescence (IF) images from the same cells in a whole-slide format suitable for translational and clinical research and eventual deployment in diagnosis. Using data from 40 human colorectal cancer resections (60 million cells) we show that IF and H&E images provide human experts and machine learning algorithms with complementary information. We demonstrate the automated generation and ranking of computational models, based either on immune infiltration or tumor-intrinsic features, that are highly predictive of progression-free survival. When these models are combined, a hazard ratio of ~0.045 is achieved, demonstrating the ability of multi-modal digital pathology to generate high-performance and interpretable biomarkers.
+Precision medicine is critically dependent on better methods for diagnosing and staging disease and predicting drug response. Histopathology using Hematoxylin and Eosin (H&E) stained tissue - not genomics – remains the primary diagnostic method in cancer. Recently developed highly-multiplexed tissue imaging methods promise to enhance research studies and clinical practice with precise, spatially-resolved, single-cell data. Here we describe the “Orion” platform for collecting H&E and high-plex immunofluorescence images from the same cells in a whole-slide format suitable for diagnosis. Using a retrospective cohort of 74 colorectal cancer resections, we show that IF and H&E images provide human experts and machine learning algorithms with complementary information that can be used to generate interpretable, multiplexed image-based models predictive of progression-free survival. Combining models of immune infiltration and tumor-intrinsic features achieves a nearly 20-fold discrimination between rapid and slow (or no) progression, demonstrating the ability of multi-modal tissue imaging to generate high-performance biomarkers.
 
 
 ---
@@ -70,7 +73,7 @@ To download, please refer to the [Synapse documentation](https://help.synapse.or
 
 ### Image viewing using web browsers
 
-Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen) [[1]](#1). Visit https://labsyspharm.github.io/orion-crc to access the images.
+Light-weight image viewing for all the bio-specimens used in this study is made available using [Minerva](https://github.com/labsyspharm/minerva-story) and [Scope2Screen](https://github.com/labsyspharm/scope2screen) [[1]](#1). Visit https://www.tissue-atlas.org/atlas-datasets/lin-chen-campton-2023/ to access the images.
 
 
 ### Access the full dataset
@@ -141,7 +144,7 @@ end
 
 ## Funding
 
-This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (PKS, SS), an NCI SBIR small business grant to RareCyte and PKS (R41-CA224503), and commercial investment from RareCyte; data processing software was developed with support from a Team Science Grant from the Gray Foundation and Ludwig Cancer Research (PKS, SS). SS is supported by the BWH President’s Scholars Award. 
+This work was supported by NCI grants U54-CA225088 and U2C-CA233262 (P.K.S. and S.S.), an NCI SBIR small business grant R41-CA224503 (RareCyte and P.K.S.) and commercial investment from RareCyte; image processing software and data science methods were developed with support from the Bill and Melinda Gates Foundation grant INV-027106 (P.K.S.), a Team Science Grant from the Gray Foundation (P.K.S. and S.S.), the David Liposarcoma Research Initiative (P.K.S. and S.S.), Emerson Collective (P.K.S.) and Ludwig Cancer Research (P.K.S. and S.S.). J.-R.L. is supported by an NCI Research Specialist Award (R50-CA274277), and S.C. by training grants T32-GM007748 from the NIGMS and T32-CA009216 from the NCI. S.S. is also supported by the BWH President’s Scholars Award.
 
 ---
 
