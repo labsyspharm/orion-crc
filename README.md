@@ -80,8 +80,8 @@ Light-weight image viewing for all the bio-specimens used in this study is made 
 
 All images at full resolution, derived image data (e.g., segmentation masks),
 and single-cell tables are stored and can be accessed through Amazon Web
-Services (AWS) S3 once the publication is live. Detailed information and list of
-files are documented [here](datarelease-README.md).
+Services (AWS) S3. Detailed information and list of files are documented
+[here](datarelease-README.md).
 
 
 ---
