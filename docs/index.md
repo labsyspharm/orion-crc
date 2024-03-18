@@ -6,6 +6,10 @@ toc: true
 
 # HTA CRC Atlas X
 
+**NOTE! his page is no longer updated, visit
+https://www.tissue-atlas.org/atlases/colorectal-cancer for the latest
+information**
+
 The HTA CRC Atlas X dataset contains images and other data being used for
 construction of an atlas of human colorectal cancer under the auspices of the
 [Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
