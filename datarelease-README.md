@@ -29,7 +29,7 @@ the anonymous login button is selected.
 ### AWS CLI Tip
 
 Review your IAM permissions and add additional in-line policies, as needed. For
-example, use: `aws s3 ls --no-sign-request s3://lin-2023-crc/data/`. If you
+example, use: `aws s3 ls --no-sign-request s3://lin-2023-orion-crc/data/`. If you
 continue to experience issues using the CLI, please follow the instructions for
 using a GUI above or refer to AWS existing documentation.
 
